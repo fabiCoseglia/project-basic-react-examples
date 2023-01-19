@@ -1,8 +1,10 @@
 import { Error404 } from '../components/Error404'
 import { Home } from '../components/Home'
+import { ShowHideMessageMiPractica } from '../components/myPractices/ShowHideMessage2'
 import { ProgressBar } from '../components/ProgressBar'
+import { ProgressBarPractice } from '../components/myPractices/ProgressBarPractice'
 import { ShowHideMessage } from '../components/ShowHideMessage'
-import { ShowHideMessageMiPractica } from '../components/ShowHideMessageMiPractica'
+import { StopwatchTimer } from '../components/StopwatchTimer'
 
 
 export const routesPublic =  [
@@ -27,8 +29,14 @@ export const routesPublic =  [
       element: <Error404 />,
     },
     {
-      path: "/showHideMessageMiPractica",
+      path: "/myPractice/showHideMessage",
       element: <ShowHideMessageMiPractica/>,
-    }
+    },
+    {
+      path: "/myPractice/progressBarPractice",
+      element: <ProgressBarPractice/>,
+    },
+   
+
     
   ]

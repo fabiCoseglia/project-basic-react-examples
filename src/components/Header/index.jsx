@@ -31,24 +31,20 @@ export const Header = () => {
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Mis practicas" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/myPractice/showHideMessage">
-              Show / Hide Message 2
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to="/">
                 Counter
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/showHideMessageMiPractica">
-              showHideMessageMiPractica
+              <NavDropdown.Item as={Link} to="/myPractice/showHideMessage">
+              ShowHideMessage Practice
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to="/">
                 Task Manager with validations
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/">
-                ...
+              <NavDropdown.Item as={Link} to="/myPractice/progressBarPractice">
+                ProgressBar Practice
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
