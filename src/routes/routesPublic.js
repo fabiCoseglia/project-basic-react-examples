@@ -19,6 +19,10 @@ export const routesPublic =  [
       element: <ProgressBar />,
     },
     {
+      path: "/stopwatchTimer",
+      element: <StopwatchTimer />,
+    },
+    {
       path: "/*",
       element: <Error404 />,
     },
