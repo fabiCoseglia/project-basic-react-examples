@@ -31,7 +31,7 @@ export const Header = () => {
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Mis practicas" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/myPractice/counterPractice">
                 Counter
               </NavDropdown.Item>
               <NavDropdown.Divider />

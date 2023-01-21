@@ -5,6 +5,7 @@ import { ProgressBar } from '../components/ProgressBar'
 import { ProgressBarPractice } from '../components/myPractices/ProgressBarPractice'
 import { ShowHideMessage } from '../components/ShowHideMessage'
 import { StopwatchTimer } from '../components/StopwatchTimer'
+import { Counter } from '../components/myPractices/Counter'
 
 
 export const routesPublic =  [
@@ -35,6 +36,10 @@ export const routesPublic =  [
     {
       path: "/myPractice/progressBarPractice",
       element: <ProgressBarPractice/>,
+    },
+    {
+      path: "/myPractice/counterPractice",
+      element: <Counter/>,
     },
    
 
